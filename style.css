@@ -1,0 +1,209 @@
+.heading{
+    height: 96vh;
+    background: -webkit-gradient(linear, left top, right top, from(#864ddf), to(#203376));
+    background: linear-gradient(to right, #864ddf, #203376);
+    overflow: hidden;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 2%;
+    /* background-color: #203376; */
+    /* position: fixed;
+    width: 100%;
+    margin: 1px;
+    z-index: 3; */
+}
+.navbar li{
+  cursor: pointer;
+    margin-left: 5%;
+    color: white;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.Hone{
+    margin: 5%;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+.p1{
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.p2{
+  font-size:20px ;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.headline p{
+    color: white;
+    /* font-size: 23px; */
+   
+  
+}
+.headline{
+    margin: 5%; 
+}
+.container1{
+   display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#Image1{
+    /* margin-left: 10%; */
+    width: 120%;
+ 
+}
+
+.WCHeading{
+    color: #203376;
+   text-align: center;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.intro{
+  text-align: center;
+  margin: 2%;
+  /* border: solid; */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #203376;
+}
+.SRHeading{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+}
+.image2{
+    margin-left: 22%;
+}
+.services{
+    background-image: url("images/service-bg.png"); 
+        height:150vh ;
+       background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+.SRHeading{
+    margin-top: 25%;
+}
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    background-color: #864ddf;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.44);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+  }
+
+  /* Fotter */
+  .footer{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* height: 30vh; */
+    padding: 1%;
+    margin-top: 5%;
+    background-color: #203376;
+  }
+  .container3{
+    display: flex;
+    flex-direction: row;
+    padding: 3%;
+  }
+  .container3 h5{
+    color: white;
+  font-size: 20px;
+    margin-left: 10rem;
+  }
+  .container3 ul{
+    color: white;
+    cursor: pointer;
+    margin-left: 7.5rem;
+  }
+  .FTmain{
+    color: white;
+    padding: 2%;
+  }
+  .icon{
+    cursor: pointer;
+    width: 30px;
+    margin-left: 3%;
+  
+  }
